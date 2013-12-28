@@ -27,7 +27,7 @@ article div h1, article div span {display: inline-block; vertical-align: top }
 
     <div>
       <h1>{news:news_headline}</h1>
-      <span>{news:categories_name} / {if:catimg}
+      <span class="derecha">{news:categories_name} / {if:catimg}
         <img src="{page:path}{news:url_catimg}" style="float:right" alt="" />{stop:catimg}</span>
     </div>
 
@@ -37,6 +37,6 @@ article div h1, article div span {display: inline-block; vertical-align: top }
       <span>{news:news_time} - {news:users_link}</span>
       <span class="derecha">{news:comments_link} ({news:comments_count}) </span>
     </div>
-    
+
 </article>
 {stop:news}
