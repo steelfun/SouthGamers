@@ -21,7 +21,7 @@
   <td class="newshead">
    <div style="float:left">{news:news_headline}</div>
    <div style="float:right">{news:categories_name}</div>
-  </td>
+  
  </tr>
  <tr>
   <td class="bottom">
